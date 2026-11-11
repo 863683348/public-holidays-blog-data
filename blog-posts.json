@@ -3730,5 +3730,237 @@
       "tiaoxiu holiday swap"
     ],
     "content": "<p><strong>Makeup workdays</strong> confuse anyone who has only worked under a fixed-date holiday system. A country declares a five-day break, and a Saturday before or after it turns into a working day. The holiday did not shrink in the statute; the calendar was rearranged, and payroll and school calendars follow the rearranged version.</p>\n<p>Countries handle a weekend holiday in a few different ways. Some move it to a weekday. Some let it lapse. Others grant the day and take a rest day back later. Knowing which one applies tells you whether an office will be staffed on the Monday.</p>\n<h2>How a weekend holiday is handled</h2>\n<p>The table covers the approaches that appear most often in national calendars. A contract can add another layer on top, which is why two colleagues in the same city can have different public holidays, and why a national headcount of holidays rarely matches what any individual employee receives.</p>\n<p>The wording in the statute is worth reading before the calendar entry. A day can be a paid holiday or an unpaid one, and some entries in the same list are commemorations with no leave attached at all. The names are similar, which is where the confusion starts.</p>\n<table>\n<thead><tr><th>Approach</th><th>Where it is common</th><th>What the calendar shows</th><th>What it means for work</th></tr></thead>\n<tbody>\n<tr><td>Substitute day</td><td>GB, AU, JP, KR</td><td>Observance moved to the next weekday</td><td>One weekday off, no time returned</td></tr>\n<tr><td>Make-up workday</td><td>CN, KR, BR</td><td>Extra working day, often a Saturday</td><td>Total days off unchanged</td></tr>\n<tr><td>No adjustment</td><td>US, DE, FR</td><td>Date stays on the weekend</td><td>No extra day, no extra work</td></tr>\n<tr><td>Regional variation</td><td>DE, ES, CH, CA</td><td>Depends on state or province</td><td>Check the local rule</td></tr>\n<tr><td>Contract-level swap</td><td>Employer agreements</td><td>Absent from the national calendar</td><td>Follows the employment contract</td></tr>\n</tbody>\n</table>\n<h2>What the swap does to travel plans</h2>\n<p>A make-up Saturday sits inside what looks like a long break, and that changes several ordinary assumptions. Flights on the return Sunday are priced for demand, and the day before is not always a rest day for the people you are visiting.</p>\n<ul>\n<li>Public transport usually runs a weekday timetable on the make-up day, not a holiday one.</li>\n<li>Schools can follow a calendar that differs from the office calendar in the same city.</li>\n<li>Appointment venues and government offices open on the recovered day and close on the holiday.</li>\n<li>Payroll cut-off dates move, so a payment that normally lands on the 25th can arrive earlier.</li>\n<li>Cross-border teams should record the recovered day explicitly instead of hiding it behind a single global list.</li>\n<li>Hotels price the holiday nights and the recovered working day differently, so the same stay can cost more for one guest than for another next door.</li>\n</ul>\n<h2>Payroll and contracts under a make-up schedule</h2>\n<p>Pay treatment follows the labour code and the contract, not the calendar. Some countries require a premium rate or overtime for the recovered day, and others treat it as a normal working day with no extra pay. Shift workers and part-time staff are frequently handled differently from office employees under the same rule.</p>\n<p>Companies that operate in several countries usually keep a per-country calendar, because a single global list cannot express a Saturday that is a working day in one office and a rest day in another. Public offices and schools add a further calendar to the same city.</p>\n<p>Recording matters as much as the rule. A recovered Saturday marked only in a memo tends to disappear from the shared calendar, and the meeting scheduled on it then fails for reasons that look personal rather than procedural.</p>\n<h2>FAQ: working with makeup workdays</h2>\n<h3>Is a make-up workday paid extra?</h3>\n<p>Sometimes. Labour codes in some countries require a premium rate or overtime for the recovered day. Others treat it as a normal working day. The employment contract and any collective agreement decide the rate.</p>\n<h3>Do make-up days apply to every employee?</h3>\n<p>Not always. Shift workers, part-time staff and employees under a different collective agreement can be treated differently. Public offices and schools may not follow the same calendar as private companies.</p>\n<h3>How should a cross-border team record them?</h3>\n<p>Keep one calendar per country and mark the recovered days explicitly. A shared list that hides the Saturday tends to produce meetings that nobody attends.</p>\n<h2>About PubHoliday</h2>\n<p>PubHoliday (public-holidays.shop) shows substitute and make-up rules alongside each country calendar. Compare counts in the <a href=\"/blog/countries-most-public-holidays-2027-ranking\">2027 holiday-count ranking</a>, and see how <a href=\"/blog/china-public-holidays-golden-week\">China's golden weeks</a> handle swaps before opening the <a href=\"/en\">country holiday calendar</a>.</p>"
+  },
+  {
+    "id": 239,
+    "title": "Date.Nager 对比：开放数据与工具体验",
+    "slug": "date-nager-alternative",
+    "category": "data",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-08T00:00:00Z",
+    "lastModified": "2026-11-08T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/date-nager-alternative.svg",
+    "excerpt": "开放假日 API 与日历优先网站对比：接入方式、受众与出答案的速度。",
+    "relatedCountries": [
+      "US",
+      "DE",
+      "GB",
+      "AU"
+    ],
+    "locale": "zh",
+    "content": "<p>比较<strong>Date.Nager 替代方案</strong>，核心问题只有一个：你要的是原始假日数据，还是一个直接给出答案的工具？Date.Nager 通过开放 API 发布公共假日数据，开发者很喜欢这一点。日历优先的网站拿到的底层信息相同，但把它包成了表格、对比和订阅链接，适合所有只想查日期的人。本页把两条路线摆在一起比较。</p>\n      <h2>Date.Nager 的长处</h2>\n      <ul>\n        <li>开放、可机器读取的假日数据，任何脚本都能调用。</li>\n        <li>覆盖国家数量大，部分国家还细分到地区。</li>\n        <li>免费额度让它成为原型开发的常见起点。</li>\n        <li>接口简单：按年、按国家、按具体日期都能取。</li>\n      </ul>\n      <h2>日历优先的体验赢在哪里</h2>\n      <p>API 返回的是 JSON。一个人想知道下周一放不放假，还得写代码或把返回结果贴到别处看。日历网站直接给出答案：各国假日天数、长周末识别、并排对比、现成的订阅链接。对规划、出行和内容排期来说，数据与答案之间这段距离，就是全部差别。</p>\n      <h2>并排对比</h2>\n      <table>\n        <thead><tr><th>维度</th><th>开放假日 API</th><th>日历优先网站</th></tr></thead>\n        <tbody>\n          <tr><td>接入方式</td><td>REST 接口，返回 JSON</td><td>浏览器直接看，一键订阅</td></tr>\n          <tr><td>适合人群</td><td>开发者、自动化流程</td><td>规划者、旅行者、HR 与内容团队</td></tr>\n          <tr><td>得到答案耗时</td><td>先写请求再说</td><td>打开页面就有</td></tr>\n          <tr><td>附加内容</td><td>只有原始列表</td><td>天数统计、长周末、对比、FAQ</td></tr>\n          <tr><td>成本</td><td>免费额度加付费上限</td><td>浏览免费</td></tr>\n        </tbody>\n      </table>\n      <h2>开放数据与工具之间怎么选</h2>\n      <p>要把假日逻辑接进应用，就保留 API，并在代码里处理限流。要回答下周哪天关门、对比两个国家、或给上线日挑日期，浏览器路线更快。很多团队两条都用：生产系统走 API，日常决策看日历，底层是同一份来源数据。</p>\n      <h2>FAQ：Date.Nager 替代方案</h2>\n      <h3>有免费的 Date.Nager 替代品吗？</h3>\n      <p>有。PubHoliday 这类日历网站在浏览器里免费展示同样的假日信息，不需要 API 密钥，还支持日历订阅，日期会自动进入 Google 或 Apple 日历。</p>\n      <h3>两者覆盖的国家一样吗？</h3>\n      <p>主要国家高度重叠。日历网站额外提供地区拆分、假日天数等展示层信息，原始 API 列表不会直接给出。</p>\n      <h3>能不能只订阅不调 API？</h3>\n      <p>可以。订阅假日日历后每年自动更新，等于从代码库里删掉一个集成点。</p>\n      <h2>关于 PubHoliday</h2>\n      <p>PubHoliday（public-holidays.shop）是建立在结构化假日数据上的日历优先参考站。可在<a href=\"/blog/worldwide-holidays-at-a-glance\">全球假日一览</a>里对比各国，读<a href=\"/blog/complete-guide-planning-around-public-holidays\">假日规划完整指南</a>，再看<a href=\"/blog/public-holidays-2027-preview-key-countries\">2027 主要国家前瞻</a>，然后打开<a href=\"/zh\">国家假日日历首页</a>。</p>\n"
+  },
+  {
+    "id": 240,
+    "title": "Date.Nager Alternative: Open Data vs Tool Experience",
+    "slug": "date-nager-alternative",
+    "category": "data",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-08T00:00:00Z",
+    "lastModified": "2026-11-08T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/date-nager-alternative.svg",
+    "excerpt": "Open holiday APIs and calendar-first sites compared: access model, audience and time to answer.",
+    "relatedCountries": [
+      "US",
+      "DE",
+      "GB",
+      "AU"
+    ],
+    "locale": "en",
+    "content": "<p>Comparing a <strong>Date.Nager alternative</strong> comes down to one question: do you want raw holiday data, or a tool that already answers the question? Date.Nager publishes public holiday data through an open API, which developers appreciate. A calendar-first site takes the same underlying information and wraps it in tables, comparisons and subscription links, which suits everyone who just needs the dates. This page compares both routes.</p>\n      <h2>What Date.Nager does well</h2>\n      <ul>\n        <li>Open, machine-readable holiday data that any script can call.</li>\n        <li>Coverage of a large country list, including subdivisions in several countries.</li>\n        <li>A free tier that makes it a common starting point for prototypes.</li>\n        <li>Simple endpoints for a year, a country or a specific date.</li>\n      </ul>\n      <h2>Where a calendar-first experience wins</h2>\n      <p>An API returns JSON, and a person who wants to know whether next Monday is a holiday still has to write code or paste the response somewhere. A calendar site answers that directly, with counts per country, long weekend detection, side-by-side comparisons and ready-made subscription links. For planning work, travel and content calendars, that gap between data and answer is the whole difference.</p>\n      <h2>Side-by-side comparison</h2>\n      <table>\n        <thead><tr><th>Aspect</th><th>Open holiday API</th><th>Calendar-first site</th></tr></thead>\n        <tbody>\n          <tr><td>Access model</td><td>REST endpoints, JSON responses</td><td>Browse in a browser, subscribe in one click</td></tr>\n          <tr><td>Best for</td><td>Developers, automated pipelines</td><td>Planners, travellers, HR and content teams</td></tr>\n          <tr><td>Time to answer</td><td>Write a request first</td><td>Instant, on the page</td></tr>\n          <tr><td>Extras</td><td>Raw lists only</td><td>Counts, long weekends, comparisons, FAQ</td></tr>\n          <tr><td>Cost</td><td>Free tier, paid limits</td><td>Free to browse</td></tr>\n        </tbody>\n      </table>\n      <h2>Choosing between open data and a tool</h2>\n      <p>If you are wiring holiday logic into an app, keep the API and handle rate limits in your code. If you are answering what is closed next week, comparing two countries or planning a launch date, the browser route is faster. Many teams use both: the API for production systems, the calendar for daily decisions, with the same source data behind each.</p>\n      <h2>FAQ: Date.Nager alternatives</h2>\n      <h3>Is there a free alternative to Date.Nager?</h3>\n      <p>Yes. Calendar sites such as PubHoliday show the same holiday information for free in the browser, without API keys, and support calendar subscription so dates flow into Google or Apple Calendar.</p>\n      <h3>Do both cover the same countries?</h3>\n      <p>Coverage overlaps on the major countries. Calendar sites add presentation layers such as regional splits and holiday counts that a raw API list does not show.</p>\n      <h3>Can I subscribe instead of calling an API?</h3>\n      <p>Yes. A subscribed holiday calendar updates itself every year, which removes one integration from your codebase entirely.</p>\n      <h2>About PubHoliday</h2>\n      <p>PubHoliday (public-holidays.shop) is a calendar-first reference built on structured holiday data. Compare countries in the <a href=\"/blog/worldwide-holidays-at-a-glance\">worldwide holidays overview</a>, read the <a href=\"/blog/complete-guide-planning-around-public-holidays\">planning guide</a>, and preview the <a href=\"/blog/public-holidays-2027-preview-key-countries\">2027 key-country preview</a> before opening the <a href=\"/en\">country holiday calendar</a>.</p>\n"
+  },
+  {
+    "id": 241,
+    "title": "GlobalHolidaysCalendar 对比：打印派与订阅派",
+    "slug": "global-holidays-calendar-alternative",
+    "category": "guide",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-08T00:00:00Z",
+    "lastModified": "2026-11-08T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/global-holidays-calendar-alternative.svg",
+    "excerpt": "可打印假日日历与订阅日历在更新、共享与离线使用上的全面对比。",
+    "relatedCountries": [
+      "US",
+      "GB",
+      "CA",
+      "AU"
+    ],
+    "locale": "zh",
+    "content": "<p>挑一个<strong>全球假日日历替代品</strong>，通常就是在两派里选：挂在墙上的可打印 PDF 日历，和会自动更新到手机里的订阅日历。两者显示的是同一批公共假日，差别在几个月后才显现——日期变了，或者你需要另一个国家的时候。</p>\n      <h2>打印派日历提供什么</h2>\n      <ul>\n        <li>固定的年度版式，打印效果好，不需要任何软件。</li>\n        <li>按国家出表，通常一国一年一页。</li>\n        <li>零配置：下载、打印、结束。</li>\n        <li>弱点也在这里：文件是冻结的，任何更正都意味着重新下载。</li>\n      </ul>\n      <h2>订阅派日历提供什么</h2>\n      <p>订阅日历住在 Google、Apple 或 Outlook 里，自己刷新。多个国家的假日可以在同一个视图里分层显示，日期跨年自动延续，行程也会自动继承当地假日。代价是它活在屏幕上，不在墙上。</p>\n      <h2>打印与订阅速览对比</h2>\n      <table>\n        <thead><tr><th>维度</th><th>打印日历</th><th>订阅日历</th></tr></thead>\n        <tbody>\n          <tr><td>更新方式</td><td>手动，每年重新下载</td><td>自动</td></tr>\n          <tr><td>多国家</td><td>一国一页</td><td>同一视图分层显示</td></tr>\n          <tr><td>离线使用</td><td>强，纸张到处能用</td><td>取决于日历缓存</td></tr>\n          <tr><td>团队共享</td><td>复印件各版本日期漂移</td><td>同一来源，始终同步</td></tr>\n          <tr><td>适合场景</td><td>办公桌、教室、厨房</td><td>手机、共享工作日历、旅行</td></tr>\n        </tbody>\n      </table>\n      <h2>按场景匹配形式</h2>\n      <p>凡是纸是交互界面的地方，打印日历仍然赢：仓库墙、家庭厨房、教室。凡是日历要共享、国家列表会变化的地方，订阅日历赢：跨境团队、旅行规划、内容排期。很多家庭其实是两样都在用——墙上贴全年的纸，手机里订细节的日历。</p>\n      <h2>FAQ：全球假日日历</h2>\n      <h3>一个订阅能覆盖多个国家吗？</h3>\n      <p>可以。国家日历分别订阅、分层显示，两国的团队在同一个日历里能看到两边的假日。</p>\n      <h3>打印日历会更新吗？</h3>\n      <p>只有发布方出新文件时才会。临时公布的假日和更正出现在下一次下载里，所以纸质表最好每年对照一次在线来源。</p>\n      <h3>订阅日历到明年要做什么？</h3>\n      <p>什么都不用做。订阅地址会继续提供下一年的日期，一月到来时日历已经填好了。</p>\n      <h2>关于 PubHoliday</h2>\n      <p>PubHoliday（public-holidays.shop）把每个国家的假日日历放在同一处，可浏览也可订阅。先用<a href=\"/blog/long-weekend-opportunities-46-countries-2027-guide\">2027 长周末指南</a>把年份排开，按<a href=\"/blog/plan-2027-travel-year-holiday-calendars\">按假日规划旅行</a>出行，用<a href=\"/blog/holiday-travel-budget-peak-season-savings\">旺季省钱技巧</a>控预算，再打开<a href=\"/zh\">国家假日日历首页</a>完成订阅。</p>\n"
+  },
+  {
+    "id": 242,
+    "title": "GlobalHolidaysCalendar Alternative: Print vs Subscribe",
+    "slug": "global-holidays-calendar-alternative",
+    "category": "guide",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-08T00:00:00Z",
+    "lastModified": "2026-11-08T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/global-holidays-calendar-alternative.svg",
+    "excerpt": "Printable holiday calendars and subscription calendars compared across updates, sharing and offline use.",
+    "relatedCountries": [
+      "US",
+      "GB",
+      "CA",
+      "AU"
+    ],
+    "locale": "en",
+    "content": "<p>Choosing a <strong>global holidays calendar alternative</strong> usually means picking between two camps: the printable PDF calendar that hangs on a wall, and the subscription calendar that updates itself in your phone. Both show the same public holidays. The difference shows up months later, when a date changes or you need another country.</p>\n      <h2>What printable calendar sites offer</h2>\n      <ul>\n        <li>A fixed annual layout that prints well and needs no software.</li>\n        <li>Country-specific sheets, often one page per country per year.</li>\n        <li>Zero setup: download, print, done.</li>\n        <li>One weakness: the file is frozen, so any correction means a new download.</li>\n      </ul>\n      <h2>What a subscription calendar offers</h2>\n      <p>A subscribed calendar sits inside Google, Apple or Outlook and refreshes on its own. Holidays for several countries can live side by side in one view, dates carry over to next year without a new download, and travel plans inherit the local holidays automatically. The trade-off is that it lives on a screen, not a wall.</p>\n      <h2>Print vs subscribe at a glance</h2>\n      <table>\n        <thead><tr><th>Aspect</th><th>Printable calendar</th><th>Subscription calendar</th></tr></thead>\n        <tbody>\n          <tr><td>Updates</td><td>Manual, re-download each year</td><td>Automatic</td></tr>\n          <tr><td>Multiple countries</td><td>One sheet per country</td><td>Layered in one view</td></tr>\n          <tr><td>Offline use</td><td>Strong, paper survives everywhere</td><td>Depends on cached calendars</td></tr>\n          <tr><td>Shared team view</td><td>Photocopies drift out of date</td><td>Same source, always in sync</td></tr>\n          <tr><td>Best for</td><td>Desks, classrooms, kitchens</td><td>Phones, shared work calendars, travel</td></tr>\n        </tbody>\n      </table>\n      <h2>Matching the format to the use case</h2>\n      <p>Printable calendars still win wherever paper is the interface: a warehouse wall, a family kitchen, a classroom. Subscription calendars win wherever the calendar is shared or the country list changes: cross-border teams, travel planning, content schedules. Many households quietly use both, a wall sheet for the year and a phone subscription for the details.</p>\n      <h2>FAQ: global holiday calendars</h2>\n      <h3>Can one subscription cover several countries?</h3>\n      <p>Yes. Country calendars subscribe separately and display as layers, so a team in two countries sees both sets of holidays in one calendar.</p>\n      <h3>Do printable calendars ever update?</h3>\n      <p>Only when the publisher issues a new file. Late-announced holidays and corrections appear in the next download, which is why printed sheets should be checked against a live source once a year.</p>\n      <h3>What happens next year with a subscription?</h3>\n      <p>Nothing to do. The subscription URL keeps serving the following year's dates, so January arrives already filled in.</p>\n      <h2>About PubHoliday</h2>\n      <p>PubHoliday (public-holidays.shop) keeps every country calendar browsable and subscribable in one place. Map the year with the <a href=\"/blog/long-weekend-opportunities-46-countries-2027-guide\">2027 long weekend guide</a>, plan trips via <a href=\"/blog/plan-2027-travel-year-holiday-calendars\">holiday-based travel planning</a>, budget with <a href=\"/blog/holiday-travel-budget-peak-season-savings\">peak season savings tips</a>, then open the <a href=\"/en\">country holiday calendar</a> to subscribe.</p>\n"
+  },
+  {
+    "id": 243,
+    "title": "用假日数据做内容营销：品牌日历创意",
+    "slug": "holiday-content-ideas",
+    "category": "guide",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-08T00:00:00Z",
+    "lastModified": "2026-11-08T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/holiday-content-ideas.svg",
+    "excerpt": "把公共假日数据变成可复用的品牌内容日历，附形式、窗口与常见问题。",
+    "relatedCountries": [
+      "US",
+      "GB",
+      "DE",
+      "JP"
+    ],
+    "locale": "zh",
+    "content": "<p>营销日历最常见的失败点，是日期从未确定，每次活动都从一张白纸起步。公共假日正好补上这块：凡是让办公室关门、让商业街排起长队的日子，都是受众正在搜索的日子。从真实假日数据出发整理<strong>假日内容营销创意</strong>，季节性发文就从碰运气变成一份可以提前几个月排满的日程。</p>\n      <h2>假日数据为什么撑得起内容规划</h2>\n      <p>假日话题的搜索需求按日历重复出现。人们提前数周查询日期、学校假期和营业时间，第二年又会回来查同样的页面。基于真实假日数据的品牌日历，能在需求出现的时点接到流量，而不是把文章发进一片安静。它也给团队一个排序理由：绑定法定假日的文章有日期、有受众、有存在的理由。</p>\n      <h2>四步搭起品牌假日日历</h2>\n      <ul>\n        <li>圈定受众真正所在的国家，把这些国家的公共假日抄进品牌日历。</li>\n        <li>给每个日期分配形式：日期科普、规划攻略、促销窗口或年终复盘。</li>\n        <li>倒排时间：在节日前三到四周发布，正好赶上日期类搜索的上升期。</li>\n        <li>把数据层面的日期也标出来，例如补班日，避免活动撞上安静的办公室。</li>\n        <li>每年年底复盘一次日历，淘汰从未带来流量的形式。</li>\n      </ul>\n      <h2>每年都能复用的活动模板</h2>\n      <p>下表把常见形式映射到各自的窗口。把这些位置排进日历后，一年的框架就定了，每轮只需要补充新的例子和数据。</p>\n      <table>\n        <thead><tr><th>形式</th><th>最佳窗口</th><th>切入角度</th></tr></thead>\n        <tbody>\n          <tr><td>日期科普</td><td>节日前 3–4 周</td><td>下一个公共假期是哪天，哪些人放假</td></tr>\n          <tr><td>规划攻略</td><td>节日前 1–2 个月</td><td>长周末路线与少请假多连休的排法</td></tr>\n          <tr><td>倒计时帖</td><td>节日当周</td><td>营业时间、快递截单、临期清单</td></tr>\n          <tr><td>数据复盘</td><td>节后一周</td><td>搜索需求实际表现，明年可以复用什么</td></tr>\n        </tbody>\n      </table>\n      <h2>怎么衡量假日文章的收益</h2>\n      <p>假日流量是脉冲式的，月度平均值会把它抹平。更合理的做法是拿节日当周与去年同一周对比，并观察文章是否不需要新推力就能回到首页。连续两年都有排名的文章是团队最便宜的内容，维护成本只有更新一段日期。</p>\n      <h2>FAQ：假日内容规划</h2>\n      <h3>假日内容应该提前多久上线？</h3>\n      <p>节日前三到四周。日期类搜索在节日前就开始爬升，页面也需要时间被收录，才能在峰值周排上位置。</p>\n      <h3>B2B 品牌适合蹭哪些假日？</h3>\n      <p>适合蹭会改变工作节奏的日子：让办公室关门的法定假日、补班日、学校假期。团队排期、发货截止时间这类选题可以直接映射上去。</p>\n      <h3>每个假日都要写一篇吗？</h3>\n      <p>不用。覆盖受众所在国家的重要假日即可，其余的合并成一篇年度总览，保证不漏重点。</p>\n      <h2>关于 PubHoliday</h2>\n      <p>PubHoliday（public-holidays.shop）把几十个国家的假日日历放在同一处维护。可先看<a href=\"/blog/global-public-holidays-2027-complete-calendar\">2027 全球假日日历</a>，用<a href=\"/blog/plan-2027-travel-year-holiday-calendars\">2027 旅行年规划</a>与<a href=\"/blog/2027-calendar-planning-year-end\">年终日历规划</a>搭框架，再打开<a href=\"/zh\">国家假日日历首页</a>填上品牌日期。</p>\n"
+  },
+  {
+    "id": 244,
+    "title": "Holiday Content Ideas: Build a Brand Calendar from Real Holiday Data",
+    "slug": "holiday-content-ideas",
+    "category": "guide",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-08T00:00:00Z",
+    "lastModified": "2026-11-08T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/holiday-content-ideas.svg",
+    "excerpt": "Turn public holiday data into a repeatable brand content calendar with formats, windows and FAQ.",
+    "relatedCountries": [
+      "US",
+      "GB",
+      "DE",
+      "JP"
+    ],
+    "locale": "en",
+    "content": "<p>A marketing calendar usually fails in the same place: the dates were never chosen, so every campaign starts from a blank page. Public holidays fix that, because each date that closes offices or fills shopping streets is also a date your audience searches for. Building <strong>holiday content ideas</strong> from a real holiday calendar turns seasonal publishing into a schedule you can fill months ahead.</p>\n      <h2>Why holiday data makes a strong content plan</h2>\n      <p>Search demand for holiday topics repeats on schedule. People look up dates, school breaks and opening hours weeks before the event, then forget the page until next year. A brand calendar built on real holiday data catches that demand at the right moment instead of publishing into silence. It also gives the team a ranking argument: a post tied to a national holiday has a date, an audience and a reason to exist.</p>\n      <h2>Building a brand holiday calendar in four steps</h2>\n      <ul>\n        <li>Pick the countries where your audience actually lives, then copy their public holidays into the brand calendar.</li>\n        <li>Assign a format to each date: explainer, planning guide, promo window or recap.</li>\n        <li>Work backwards: publish three to four weeks before the holiday, while date searches climb.</li>\n        <li>Mark data-level dates too, such as makeup workdays, so campaigns do not collide with a quiet office.</li>\n        <li>Review the whole calendar once a year and retire formats that never earned traffic.</li>\n      </ul>\n      <h2>Campaign patterns that repeat every year</h2>\n      <p>The table below maps common formats to their best window. Once the slots are on the calendar, most of the yearly planning is done, and each cycle only needs new examples and fresh screenshots.</p>\n      <table>\n        <thead><tr><th>Format</th><th>Best window</th><th>Example angle</th></tr></thead>\n        <tbody>\n          <tr><td>Date explainer</td><td>3–4 weeks before</td><td>When is the next public holiday, and who gets it off</td></tr>\n          <tr><td>Planning guide</td><td>1–2 months before</td><td>Long weekend routes and leave-maximising schedules</td></tr>\n          <tr><td>Countdown post</td><td>The holiday week</td><td>Opening hours, delivery cut-offs, last-minute checklists</td></tr>\n          <tr><td>Recap with data</td><td>The week after</td><td>What search demand actually did, and what to reuse next year</td></tr>\n        </tbody>\n      </table>\n      <h2>Measuring what holiday posts earn</h2>\n      <p>Holiday traffic is spiky, so monthly averages hide it. Compare the holiday week against the same week last year instead, and track whether the post returned to page one without a new push. A post that ranks for two years in a row is the cheapest content the team owns, because maintenance is one paragraph of updated dates.</p>\n      <h2>FAQ: holiday content planning</h2>\n      <h3>How early should holiday content go live?</h3>\n      <p>Three to four weeks before the event. Date-related searches start well before the holiday, and pages need time to index before the peak week.</p>\n      <h3>Which holidays work for B2B brands?</h3>\n      <p>The ones that change working patterns: public holidays that close offices, makeup workdays, and school breaks. Topics such as team scheduling and delivery deadlines map directly onto them.</p>\n      <h3>Do I need a post for every holiday?</h3>\n      <p>No. Cover the holidays that matter to your audience's countries, and group the rest into a single yearly overview so nothing important is missing.</p>\n      <h2>About PubHoliday</h2>\n      <p>PubHoliday (public-holidays.shop) maintains the holiday calendar for dozens of countries in one place. Start from the <a href=\"/blog/global-public-holidays-2027-complete-calendar\">2027 global holiday calendar</a>, shape the year with <a href=\"/blog/plan-2027-travel-year-holiday-calendars\">2027 travel planning</a> and <a href=\"/blog/2027-calendar-planning-year-end\">year-end calendar planning</a>, then open the <a href=\"/en\">country holiday calendar</a> to fill your brand dates.</p>\n"
+  },
+  {
+    "id": 245,
+    "title": "黑五特辑：假日购物季全球日历",
+    "slug": "black-friday-date",
+    "category": "guide",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-11T00:00:00Z",
+    "lastModified": "2026-11-11T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/black-friday-date.svg",
+    "excerpt": "2026 年黑五是 11 月 27 日。完整购物季日历，以及各市场的购物节点。",
+    "relatedCountries": [
+      "US",
+      "CA",
+      "GB",
+      "DE"
+    ],
+    "locale": "zh",
+    "content": "<p>2026 年的<strong>黑五日期</strong>是 11 月 27 日，即 11 月第四个星期四之后的那个星期五。感恩节在 11 月 26 日，购物周末一直延续到 11 月 30 日的网络星期一，同一套规则每年重复。规则固定，意味着整个购物季买卖双方都能提前排期。</p>\n      <h2>2026 购物季速览</h2>\n      <table>\n        <thead><tr><th>日期</th><th>节点</th><th>内容</th></tr></thead>\n        <tbody>\n          <tr><td>2026-11-26</td><td>感恩节（美国）</td><td>11 月第四个星期四，联邦假日</td></tr>\n          <tr><td>2026-11-27</td><td>黑色星期五</td><td>零售峰值日，如今已成全球折扣事件</td></tr>\n          <tr><td>2026-11-28</td><td>小企业星期六</td><td>本地与独立商户的专场</td></tr>\n          <tr><td>2026-11-30</td><td>网络星期一</td><td>周末促销的线上延长</td></tr>\n        </tbody>\n      </table>\n      <h2>为什么黑五日期每年都变</h2>\n      <p>黑五不是固定日期，而是一个位置：11 月第四个星期四的次日。锚点让它落在 11 月 23 日到 29 日之间，购物季因此在日历上漂移，但始终从周四开始、周五见顶。感恩节本身是链条里的美国联邦假日，这正是四天周末零售分量如此之重的原因。</p>\n      <h2>美国之外的购物季日历</h2>\n      <ul>\n        <li>中国：11 月 11 日的双十一天文数字已超过多数西方促销节的体量。</li>\n        <li>英国、爱尔兰及英联邦国家：12 月 26 日的节礼日开启圣诞后清仓季。</li>\n        <li>欧洲整体：购物季从 11 月底拉到 1 月初，叠加各国自己的公共假日。</li>\n        <li>墨西哥与巴西：El Buen Fin 与本土化黑五各有自己的日历。</li>\n      </ul>\n      <h2>绕着购物季做规划</h2>\n      <p>锚点是规则，所以整个购物季的发货截单、活动窗口和人员排班可以一次排完。跨境卖家还应检查各市场同一周有没有本地公共假日：黑五之上再叠一个假日，需求与运力都会变形。下面的日历正好覆盖这些。</p>\n      <h2>FAQ：黑五日期</h2>\n      <h3>2026 年黑五是哪天？</h3>\n      <p>2026 年 11 月 27 日。感恩节是 11 月 26 日，网络星期一是 11 月 30 日。</p>\n      <h3>黑五是公共假日吗？</h3>\n      <p>在美国它不是联邦假日，不过部分州和不少雇主会放假。其他国家基本只把它当零售事件。</p>\n      <h3>黑五内容什么时候发最合适？</h3>\n      <p>11 月上旬。日期类搜索在月初两周爬升，比淘货流量在最后一周的峰值早一步。</p>\n      <h2>关于 PubHoliday</h2>\n      <p>PubHoliday（public-holidays.shop）梳理各市场塑造购物季的假日安排。可沿<a href=\"/blog/thanksgiving-to-christmas-us-holiday-season\">感恩节到圣诞</a>追全程，用<a href=\"/blog/us-federal-holidays-2026-2027\">2026–2027 美国联邦假日</a>核对日期，再用<a href=\"/blog/holiday-travel-budget-peak-season-savings\">旺季省钱技巧</a>控预算，入口在<a href=\"/zh\">国家假日日历首页</a>。</p>\n"
+  },
+  {
+    "id": 246,
+    "title": "Black Friday 2026: The Global Shopping Season Calendar",
+    "slug": "black-friday-date",
+    "category": "guide",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-11T00:00:00Z",
+    "lastModified": "2026-11-11T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/black-friday-date.svg",
+    "excerpt": "Black Friday 2026 falls on November 27. The full shopping season calendar, plus how other markets shop.",
+    "relatedCountries": [
+      "US",
+      "CA",
+      "GB",
+      "DE"
+    ],
+    "locale": "en",
+    "content": "<p>The <strong>Black Friday date</strong> for 2026 is November 27, the Friday after the fourth Thursday of November. Thanksgiving falls on November 26, the shopping weekend runs to Cyber Monday on November 30, and the same sequence repeats by rule every year. That rule makes the whole shopping season plannable well in advance, on both sides of the counter.</p>\n      <h2>The 2026 shopping season at a glance</h2>\n      <table>\n        <thead><tr><th>Date</th><th>Event</th><th>What happens</th></tr></thead>\n        <tbody>\n          <tr><td>Nov 26, 2026</td><td>Thanksgiving (US)</td><td>Fourth Thursday of November, federal holiday</td></tr>\n          <tr><td>Nov 27, 2026</td><td>Black Friday</td><td>Peak retail day, now a global discount event</td></tr>\n          <tr><td>Nov 28, 2026</td><td>Small Business Saturday</td><td>Local and independent merchants focus</td></tr>\n          <tr><td>Nov 30, 2026</td><td>Cyber Monday</td><td>Online deals extension of the weekend</td></tr>\n        </tbody>\n      </table>\n      <h2>Why the date moves every year</h2>\n      <p>Black Friday is not a fixed date but a position: the day after the fourth Thursday in November. That anchors it between November 23 and 29, so the season drifts across the calendar while always starting on a Thursday and peaking on a Friday. Thanksgiving itself is the US federal holiday in the chain, which is why the four-day weekend carries so much retail weight.</p>\n      <h2>Shopping season calendars beyond the US</h2>\n      <ul>\n        <li>China: Singles' Day on November 11 has outgrown most Western sale events in volume.</li>\n        <li>UK, Ireland and Commonwealth countries: Boxing Day on December 26 opens the post-Christmas clearance.</li>\n        <li>Europe generally: the season stretches from late November through early January, layered on each country's own public holidays.</li>\n        <li>Mexico and Brazil: local sale seasons such as El Buen Fin and Black Friday adaptations follow their own calendars.</li>\n      </ul>\n      <h2>Planning around the season</h2>\n      <p>Because the anchor is a rule, shipping cut-offs, campaign windows and staffing for the whole season can be scheduled in one sitting. Cross-border sellers should also check which of their markets have public holidays in the same weeks, since a local holiday on top of Black Friday changes both demand and delivery capacity. The calendars below cover exactly that.</p>\n      <h2>FAQ: Black Friday dates</h2>\n      <h3>What date is Black Friday 2026?</h3>\n      <p>November 27, 2026. Thanksgiving is November 26 and Cyber Monday is November 30.</p>\n      <h3>Is Black Friday a public holiday?</h3>\n      <p>In the US it is not a federal holiday, though some states and many employers observe it. Most other countries treat it purely as a retail event.</p>\n      <h3>When is the best time to publish Black Friday content?</h3>\n      <p>Early November. Date searches ramp up in the first two weeks of the month, before deal-hunting traffic peaks in the final week.</p>\n      <h2>About PubHoliday</h2>\n      <p>PubHoliday (public-holidays.shop) maps the holidays that shape the shopping season in each market. Trace the season in <a href=\"/blog/thanksgiving-to-christmas-us-holiday-season\">Thanksgiving to Christmas</a>, confirm dates in <a href=\"/blog/us-federal-holidays-2026-2027\">US federal holidays 2026–2027</a>, and budget the weeks with <a href=\"/blog/holiday-travel-budget-peak-season-savings\">peak season savings tips</a>, all from the <a href=\"/en\">country holiday calendar</a>.</p>\n"
+  },
+  {
+    "id": 247,
+    "title": "假日数据的来源：各国官方公布流程",
+    "slug": "holiday-data-sources",
+    "category": "data",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-11T00:00:00Z",
+    "lastModified": "2026-11-11T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/holiday-data-sources.svg",
+    "excerpt": "从公报到日历：谁宣布公共假日，日期提前多久确认。",
+    "relatedCountries": [
+      "US",
+      "GB",
+      "CN",
+      "JP",
+      "DE"
+    ],
+    "locale": "zh",
+    "content": "<p>日历上的每一个公共假日，最初都是某个地方的官方公告。追一遍<strong>假日数据的来源</strong>，就能解释为什么有些日期提前几年就确定，有些却要到几周前才敲定。各国公布假日的机构和节奏不同，聚合服务再把这些公告汇成大家阅读的日历。</p>\n      <h2>谁有权宣布公共假日</h2>\n      <p>宣布机构决定了日期的可靠程度。有的体系由法律固定日期，有的靠公告或议会决议发布，还有少数国家会用临时法令追加全国假日。</p>\n      <table>\n        <thead><tr><th>国家</th><th>宣布机构</th><th>发布渠道</th></tr></thead>\n        <tbody>\n          <tr><td>美国</td><td>联邦立法，OPM 维护日程</td><td>OPM 联邦假日日程表</td></tr>\n          <tr><td>英国</td><td>王室公告加政府部门</td><td>GOV.UK 公告</td></tr>\n          <tr><td>中国</td><td>国务院年度通知</td><td>官方公报，通常在前一年年底</td></tr>\n          <tr><td>日本</td><td>《假日法》，内阁定日期</td><td>政府日历公布</td></tr>\n          <tr><td>德国</td><td>各联邦州</td><td>州公报，16 份不同清单</td></tr>\n        </tbody>\n      </table>\n      <h2>日期提前多久公布</h2>\n      <ul>\n        <li>法定固定日期：提前数十年已知，只可能被特别公告调整。</li>\n        <li>年度通知（中国的安排与补班清单）：一般在前一年的 10 月或 11 月公布。</li>\n        <li>农历与天文日期：提前几年就能推算，官方历法发布后确认。</li>\n        <li>一次性全国假日：有时只提前几周甚至几天宣布，这就是聚合服务要标\"待确认\"的原因。</li>\n      </ul>\n      <h2>为什么有些日期每年都会动</h2>\n      <p>两类机制造成日期浮动。农历型节日（春节、开斋节、排灯节）跟随各自的历法移动，宗教推算类（复活节）跟随春分月圆。之后是周末对齐层：各国用补休或补班消化落在周末的假日，这一层才是每年官方公告真正敲定的内容。</p>\n      <h2>聚合服务怎么把公告变成日历</h2>\n      <p>假日聚合服务收集公报与官方通知，规范化为带地区、类型、确认状态的结构化列表，再以可浏览日历和订阅源的形式重新发布。价值不在收集数据——公告谁都读得到——而在日期被移动、替换或临时公布时，把状态维护到最新。</p>\n      <h2>FAQ：假日数据来源</h2>\n      <h3>在哪里能官方核实一个公共假日？</h3>\n      <p>宣布机构自己的发布是一手来源：美国的联邦日程、中国的公报、德国的州清单。聚合服务会引用这些来源并标注未确认项。</p>\n      <h3>为什么不同来源的假日天数对不上？</h3>\n      <p>因为有的只数全国法定假日，有的把地区性假日、不带休的纪念日或补休日也算进去。比较国家之前，先看清统计口径。</p>\n      <h3>公告发布后日历多久更新？</h3>\n      <p>靠谱的聚合服务在公报发布后几天内更新，订阅日历则把变更自动推给每个订阅者。</p>\n      <h2>关于 PubHoliday</h2>\n      <p>PubHoliday（public-holidays.shop）跟踪几十个国家的假日公告，并按日期标注确认状态。想理解浮动日期，可读<a href=\"/blog/floating-holidays-why-dates-move-every-year\">浮动节日科普</a>与<a href=\"/blog/how-is-easter-calculated-paschal-full-moon\">复活节怎么算</a>，再浏览<a href=\"/blog/global-public-holidays-2027-complete-calendar\">2027 全球假日日历</a>或<a href=\"/zh\">国家假日日历首页</a>。</p>\n"
+  },
+  {
+    "id": 248,
+    "title": "Where Holiday Data Comes From: Official Announcements",
+    "slug": "holiday-data-sources",
+    "category": "data",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-11T00:00:00Z",
+    "lastModified": "2026-11-11T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/holiday-data-sources.svg",
+    "excerpt": "From gazettes to calendars: which bodies declare public holidays and how far ahead dates are confirmed.",
+    "relatedCountries": [
+      "US",
+      "GB",
+      "CN",
+      "JP",
+      "DE"
+    ],
+    "locale": "en",
+    "content": "<p>Every public holiday on a calendar started as an official announcement somewhere, and tracing <strong>holiday data sources</strong> explains why some dates are certain years ahead while others stay tentative until weeks before. Different countries declare holidays through different bodies, on different schedules, and aggregators combine those announcements into the calendars everyone reads.</p>\n      <h2>Who declares a public holiday</h2>\n      <p>The declaring body decides how reliable a date is. In some systems the date is fixed by statute, in others a proclamation or a council decision publishes it, and a few countries still add last-minute national holidays by decree.</p>\n      <table>\n        <thead><tr><th>Country</th><th>Declaring body</th><th>Where it is published</th></tr></thead>\n        <tbody>\n          <tr><td>United States</td><td>Federal law, schedule maintained by OPM</td><td>OPM federal holiday schedule</td></tr>\n          <tr><td>United Kingdom</td><td>Royal proclamation plus government departments</td><td>GOV.UK announcements</td></tr>\n          <tr><td>China</td><td>State Council annual notice</td><td>Official gazette, usually late in the prior year</td></tr>\n          <tr><td>Japan</td><td>Public Holiday Law, cabinet sets dates</td><td>Government calendar listings</td></tr>\n          <tr><td>Germany</td><td>Each federal state (Bundesland)</td><td>State gazettes, 16 different lists</td></tr>\n        </tbody>\n      </table>\n      <h2>How far in advance dates are announced</h2>\n      <ul>\n        <li>Statutory fixed dates: known decades ahead, only shifted by special proclamations.</li>\n        <li>Annual notices (China's arrangement and makeup-workday list): typically published in October or November of the previous year.</li>\n        <li>Lunar and astronomical dates: computable years ahead, confirmed once the official calendar is issued.</li>\n        <li>One-off national holidays: sometimes announced only weeks or days before, which is why aggregators carry a tentative flag.</li>\n      </ul>\n      <h2>Why some dates move every year</h2>\n      <p>Two mechanisms produce moving dates. Lunar-based festivals such as Lunar New Year, Eid and Diwali shift with their calendars, and religious computations such as Easter follow the paschal full moon. Weekend alignment then produces substitutes or makeup workdays depending on the country, which is the layer that national announcements actually settle each year.</p>\n      <h2>How aggregators turn announcements into a calendar</h2>\n      <p>A holiday aggregator collects gazettes and official notices, normalises them into a structured list with region, type and confirmed status, and republishes the result as a browsable calendar and a subscription feed. The value is not collecting the data, which anyone can read; it is keeping the status current when a date is moved, replaced or announced late.</p>\n      <h2>FAQ: holiday data sources</h2>\n      <h3>Where can I verify a public holiday officially?</h3>\n      <p>The declaring body's own publication is the primary source: the federal schedule in the US, the gazette in China, the state list in Germany. Aggregators cite these and flag anything unconfirmed.</p>\n      <h3>Why do sources disagree on holiday counts?</h3>\n      <p>Because one counts national statutory holidays while another includes regional days, observances without leave, or substitute days. Always check what a count includes before comparing countries.</p>\n      <h3>How fast do calendars update after an announcement?</h3>\n      <p>Good aggregators update within days of a gazette publication, and subscription calendars push the change to every subscriber automatically.</p>\n      <h2>About PubHoliday</h2>\n      <p>PubHoliday (public-holidays.shop) tracks announcements across dozens of countries and marks confirmation status per date. Understand moving dates via <a href=\"/blog/floating-holidays-why-dates-move-every-year\">floating holidays explained</a> and <a href=\"/blog/how-is-easter-calculated-paschal-full-moon\">Easter calculation</a>, then browse the <a href=\"/blog/global-public-holidays-2027-complete-calendar\">2027 global holiday calendar</a> or the <a href=\"/en\">country holiday calendar</a>.</p>\n"
+  },
+  {
+    "id": 249,
+    "title": "年终盘点：2026 全球假日大数据",
+    "slug": "holidays-2026-stats",
+    "category": "data",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-11T00:00:00Z",
+    "lastModified": "2026-11-11T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/holidays-2026-stats.svg",
+    "excerpt": "2026 年主要经济体的假日天数、补休与补班制度对比盘点。",
+    "relatedCountries": [
+      "US",
+      "JP",
+      "CN",
+      "DE",
+      "GB"
+    ],
+    "locale": "zh",
+    "content": "<p>把<strong>2026 假日数据</strong>放在一起读，会发现各国分布天数的方式差异极大。全球没有一个有意义的平均值：美国员工数的是 11 个联邦假日，而一些亚洲日历超过 20 个，东亚的补班制度还会整周重排。下面的数字汇总了用于 2027 规划的大盘。</p>\n      <h2>2026 年的数字盘点</h2>\n      <p>下表统计全国法定假日，不含年假与地方追加。地方日历（如德国各州、加拿大各省）会明显改变总数。</p>\n      <table>\n        <thead><tr><th>国家</th><th>2026 全国假日（约）</th><th>值得注意的模式</th></tr></thead>\n        <tbody>\n          <tr><td>美国</td><td>11–12 天</td><td>联邦固定日期清单，落周末不补</td></tr>\n          <tr><td>英国</td><td>8–9 天</td><td>银行假日，含春季与夏季假日</td></tr>\n          <tr><td>德国</td><td>9–13 天</td><td>取决于州，天主教地区最多</td></tr>\n          <tr><td>日本</td><td>15–16 天</td><td>补休制度保证假日落在工作日</td></tr>\n          <tr><td>中国</td><td>11–13 天</td><td>补班拼出黄金周式长假块</td></tr>\n          <tr><td>印度</td><td>差异很大</td><td>三个全国性日子加大量地方与宗教假日</td></tr>\n        </tbody>\n      </table>\n      <h2>2026 数据揭示的规律</h2>\n      <ul>\n        <li>假日数量与法律传统的关系，比与经济体量的关系更紧密。</li>\n        <li>补休与补班制度对\"实际休到多少天\"的影响，不亚于原始数量。</li>\n        <li>地方层（州、省、州郡）造成邻国之间最大的差距。</li>\n        <li>宗教历法让几个大国的总数逐年浮动。</li>\n      </ul>\n      <h2>2026 的长周末与补班日</h2>\n      <p>补休制国家的 2026 年对规划者友好：好几个假日贴着周末落下，自动连成长假。补班制国家的日历上长假块更长，但要还回一两个周六，净休天数其实持平。比较两国\"假期含金量\"时，应先抵消这些效应再比。</p>\n      <h2>把这些数字用于 2027 规划</h2>\n      <p>同样的对比在 2027 年已经可以做。从<a href=\"/blog/countries-most-public-holidays-2027-ranking\">2027 假日天数排名</a>开始，用<a href=\"/blog/europe-public-holidays-2026-complete-calendar\">欧洲日历</a>看地方层差异，并在预订任何行程前用<a href=\"/blog/us-federal-holidays-2026-2027\">2026–2027 联邦假日</a>核对美国清单。</p>\n      <h2>FAQ：2026 假日统计</h2>\n      <h3>2026 年哪个国家公共假日最多？</h3>\n      <p>大型经济体里，宗教与全国假日密集的亚洲日历排在前列；全部国家里，宗教纪念日多的小国排最前。是否计入地方假日对排名影响很大。</p>\n      <h3>这些统计包含年假吗？</h3>\n      <p>不包含。数字只统计法定公共假日，法定带薪年假是另一项权利，会大幅增加实际休息天数。</p>\n      <h3>为什么各网站公布的天数不一样？</h3>\n      <p>口径不同：有的计补休日，有的计不带休的纪念日，有的把地方假日并入全国总数。比较之前先看统计方法。</p>\n      <h2>关于 PubHoliday</h2>\n      <p>PubHoliday（public-holidays.shop）把 2026 与 2027 各国的天数与日历放在同一处。可在<a href=\"/blog/countries-most-public-holidays-2027-ranking\">假日天数排名</a>里对比总量，扫描<a href=\"/blog/europe-public-holidays-2026-complete-calendar\">2026 欧洲</a>，再打开<a href=\"/zh\">国家假日日历首页</a>查自己的数字。</p>\n"
+  },
+  {
+    "id": 250,
+    "title": "2026 Holiday Data in Numbers: A Year-End Review",
+    "slug": "holidays-2026-stats",
+    "category": "data",
+    "author": "PubHoliday Editorial Team",
+    "publishedDate": "2026-11-11T00:00:00Z",
+    "lastModified": "2026-11-11T00:00:00Z",
+    "imageUrl": "https://public-holidays.shop/images/blog/holidays-2026-stats.svg",
+    "excerpt": "Holiday counts, substitute systems and makeup workdays across major economies, compared for 2026.",
+    "relatedCountries": [
+      "US",
+      "JP",
+      "CN",
+      "DE",
+      "GB"
+    ],
+    "locale": "en",
+    "content": "<p>Reading <strong>holidays 2026 stats</strong> side by side shows how differently countries distribute days off. The year has no global average that matters; a US employee counts 11 federal holidays while some Asian calendars top 20, and makeup workdays in East Asia rearrange whole weeks. The numbers below collect the broad picture for planning 2027.</p>\n      <h2>The year in numbers</h2>\n      <p>Counts below refer to national statutory holidays, before annual leave and regional additions. Regional calendars, such as German states or Canadian provinces, change the totals noticeably.</p>\n      <table>\n        <thead><tr><th>Country</th><th>National holidays 2026 (approx.)</th><th>Pattern worth noting</th></tr></thead>\n        <tbody>\n          <tr><td>United States</td><td>11–12</td><td>Fixed-date federal list, weekend dates get no substitute</td></tr>\n          <tr><td>United Kingdom</td><td>8–9</td><td>Bank holidays incl. spring and summer breaks</td></tr>\n          <tr><td>Germany</td><td>9–13</td><td>Depends on the state, highest in Catholic regions</td></tr>\n          <tr><td>Japan</td><td>15–16</td><td>Substitute-day system keeps weekdays off</td></tr>\n          <tr><td>China</td><td>11–13</td><td>Makeup workdays build golden-week style blocks</td></tr>\n          <tr><td>India</td><td>Varies widely</td><td>Three national days plus many regional and religious ones</td></tr>\n        </tbody>\n      </table>\n      <h2>What 2026 data shows about patterns</h2>\n      <ul>\n        <li>Counts correlate more with legal tradition than with economy size.</li>\n        <li>Substitute and makeup systems matter as much as raw counts for time off actually enjoyed.</li>\n        <li>Regional layers (states, provinces, cantons) create the biggest gaps between neighbours.</li>\n        <li>Religious calendars keep several large countries' totals fluid year to year.</li>\n      </ul>\n      <h2>Long weekends and makeup days in 2026</h2>\n      <p>2026 rewarded planners in substitute-day countries: several holidays landed near weekends and were extended automatically. In makeup-day countries the blocks looked longer on the calendar but a Saturday or two was reclaimed, so net days off stayed level. Anyone comparing vacation value between countries should net these effects out first, then compare.</p>\n      <h2>Reading the numbers for 2027 planning</h2>\n      <p>The same comparison run on 2027 dates is already possible. Start from the <a href=\"/blog/countries-most-public-holidays-2027-ranking\">2027 holiday count ranking</a>, check the <a href=\"/blog/europe-public-holidays-2026-complete-calendar\">European calendar</a> for regional layers, and confirm the US list in <a href=\"/blog/us-federal-holidays-2026-2027\">federal holidays 2026–2027</a> before booking anything.</p>\n      <h2>FAQ: 2026 holiday statistics</h2>\n      <h3>Which country had the most public holidays in 2026?</h3>\n      <p>Among large economies, Asian calendars with dense religious and national days lead the ranking; among all countries, small states with many religious observances top the list. Counts depend heavily on whether regional days are included.</p>\n      <h3>Do these stats include annual leave?</h3>\n      <p>No. The figures count statutory public holidays only. Statutory paid leave is a separate entitlement and adds substantially to real days off.</p>\n      <h3>Why do published counts differ between sites?</h3>\n      <p>Different inclusion rules: some count substitute days, some count observances without time off, some count regional holidays in national totals. Check the methodology before comparing.</p>\n      <h2>About PubHoliday</h2>\n      <p>PubHoliday (public-holidays.shop) keeps per-country counts and calendars for 2026 and 2027 in one place. Compare totals in the <a href=\"/blog/countries-most-public-holidays-2027-ranking\">holiday count ranking</a>, scan <a href=\"/blog/europe-public-holidays-2026-complete-calendar\">Europe 2026</a>, then open the <a href=\"/en\">country holiday calendar</a> for your own counts.</p>\n"
   }
 ]
